@@ -11,6 +11,7 @@
             <div id="page-banner">
                 <h1 class="title">Bookshot</h1>
                 <p>Give books a shot!</p>
+                <a href="http://www.thenetninja.co.uk">click here</a>
                 <form id="search-books">
                     <input type="text" placeholder="Search books..." />
                 </form>
@@ -38,9 +39,25 @@
             </ul>
         </div>
         <form id="add-book">
+            <input type="checkbox" id="hide" />
+            <label for="hide">Hide all books</label>
             <input type="text" placeholder="Add a book..." />
             <button>Add</button>
         </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel active" id="about">
+                <p>Content for about tab...</p>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="panel contact" id="contact">
+                <p>Content for contact tab...</p>
+                <p>Lorem ipsumcrap</p>
+            </div>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
