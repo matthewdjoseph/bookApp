@@ -1,4 +1,4 @@
-// video 14
+// video 15
 
 const list = document.querySelector('#book-list ul');
 
@@ -28,4 +28,13 @@ addForm.addEventListener('submit', function(e){
     li.appendChild(dleteBtn);
     li.appendChild(li);
 
+});
+
+const hideBox = document.querySelector('#hide');
+hideBox.addEventListener('change', function(e){
+    if(hideBox.checked){
+        list.style.display = "none";
+    }else{
+        list.style.display = "initial";
+    }
 });

@@ -93,6 +93,14 @@ h1, h2{
     float: left;
 }
 
+#add-book #hide{
+    width:30px;
+}
+
+#add-book label{
+    line-height: 52px;
+}
+
 #add-book button{
     border: 1px solid #9361bf;
     background: #9361bf;
