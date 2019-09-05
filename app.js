@@ -1,11 +1,11 @@
-// video 8
+// video 4
 
-const bookList = document.querySelector('#book-list');
+const wmf = document.querySelector('#book-list li:nth-child(2) .name');
 
-console.log('book-list next sibling is:', bookList.nextSibling);
-console.log('book-list next element sibling is:', bookList.nextElementSibling);
+var books = document.querySelector('#book-list li .name');
 
-console.log('book-list previous sibling is:', bookList.previousSibling);
-console.log('book-list previous element sibling is:', bookList.previousElementSibling);
+books = document.querySelectorAll('#book-list li .name');
 
-bookList.previousElementSibling.querySelector('p').innerHTML += '<br />Too cool for everyone else!';
+Array.from(books).forEach(function(book){
+    console.log(book);
+})
