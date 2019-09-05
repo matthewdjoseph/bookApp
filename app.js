@@ -1,4 +1,4 @@
-// video 18
+// video 2
 
 document.addEventListener('DOMContentLoaded', function(){
     const list = document.querySelector('#book-list ul');
@@ -69,4 +69,3 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     });
 });
-
