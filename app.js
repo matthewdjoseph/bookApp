@@ -1,4 +1,4 @@
-// video 12
+// video 14
 
 const list = document.querySelector('#book-list ul');
 
