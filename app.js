@@ -1,7 +1,11 @@
-// video 3
+// video 4
 
-var titles = document.getElementsByClassName('title');
+const wmf = document.querySelector('#book-list li:nth-child(2) .name');
 
-Array.from(titles).forEach(function(item){
-    console.log(item);
+var books = document.querySelector('#book-list li .name');
+
+books = document.querySelectorAll('#book-list li .name');
+
+Array.from(books).forEach(function(book){
+    console.log(book);
 })
