@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function(){
         deleteBtn.classList.add('delete');
 
         li.appendChild(bookName);
-        li.appendChild(dleteBtn);
-        li.appendChild(li);
+        li.appendChild(deleteBtn);
+        list.appendChild(li);
 
     });
 
